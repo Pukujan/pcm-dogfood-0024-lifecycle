@@ -9,3 +9,9 @@ class NextActionTests(unittest.TestCase):
 
     def test_falls_back_to_current_pointer(self) -> None:
         self.assertEqual(next_action({}), "read checkpoints/CURRENT.md")
+
+
+class WorktreeNoteTests(unittest.TestCase):
+    def test_worktree_change_is_clean(self) -> None:
+        from trial.worktree_note import cleaned
+        self.assertTrue(cleaned())
