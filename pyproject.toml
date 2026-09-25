@@ -4,7 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pcm-lifecycle-trial"
-dynamic = ["version"]
 version = "0.1.0"
 description = "Disposable PCM lifecycle trial"
 requires-python = ">=3.11"
