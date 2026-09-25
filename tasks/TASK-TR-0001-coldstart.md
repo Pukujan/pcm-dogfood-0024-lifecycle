@@ -51,6 +51,29 @@ Starting revision, material inputs/configuration, runtime, exact command or prom
 
 No checkpoints yet.
 
+### 2026-09-25 10:16:37 UTC — owner lifecycle trial
+
+<!-- continuity:checkpoint {"agent":"owner lifecycle trial","blocked":["None."],"changed":["trial/handoff_note.py; tests/test_trial_module.py; tasks/TASK-TR-0001-coldstart.md; checkpoints/CURRENT.md"],"completed":["Added trial/handoff_note.py + tests; CURRENT points at TR-0001; bounded change proves checkpoint+push path."],"decisions":["Trial stays disposable; deleted after evidence."],"evidence":["python3.12 -m unittest discover -s tests: 3 OK; continuity validate --root .: VALID"],"next_action":"Open PR, enable auto-merge, verify required checks, reconcile issue status.","protocol_version":"0.1.0-draft","schema":"project-continuity.checkpoint.v1","task_id":"TR-0001","timestamp":"2026-09-25T10:16:37Z"} -->
+<!-- continuity:checkpoint-operation {"payload_sha256":"15b9411c05d2208735ab80f55b2165410820664c1063c0d9846d55a96cf0de43","request_id":"tr0001-lifecycle-20260925","schema":"project-continuity.checkpoint-operation.v1","task_id":"TR-0001"} -->
+
+Completed:
+- Added trial/handoff_note.py + tests; CURRENT points at TR-0001; bounded change proves checkpoint+push path.
+
+Evidence:
+- python3.12 -m unittest discover -s tests: 3 OK; continuity validate --root .: VALID
+
+Decisions:
+- Trial stays disposable; deleted after evidence.
+
+Changed:
+- trial/handoff_note.py; tests/test_trial_module.py; tasks/TASK-TR-0001-coldstart.md; checkpoints/CURRENT.md
+
+Blocked/uncertain:
+- None.
+
+Next:
+- Open PR, enable auto-merge, verify required checks, reconcile issue status.
+
 ## Handoff
 
 Read PROJECT → CURRENT → this task → minimum relevant spec. Checkpoint before stopping.
