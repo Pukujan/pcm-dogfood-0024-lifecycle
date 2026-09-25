@@ -1,6 +1,6 @@
 # TASK-TR-0002 — Worktree Proof
 
-<!-- continuity:task {"acceptance":["replace this with observable, task-specific acceptance checks"],"depends_on":[],"goal":"Exercise the managed-worktree path end-to-end in the disposable adoption: create, work, merge, verified remove","id":"TR-0002","issue_url":"https://github.com/Pukujan/pcm-dogfood-0024-lifecycle/issues/1","next_action":"define scope and observable acceptance checks, then begin bounded work","owner":"owner lifecycle trial","priority":"P3","protocol_version":"0.1.0-draft","schema":"project-continuity.task.v1","status":"active","why":"Item 41 requires task-owned worktrees be cleaned up after merge"} -->
+<!-- continuity:task {"acceptance": ["replace this with observable, task-specific acceptance checks"], "depends_on": [], "goal": "Exercise the managed-worktree path end-to-end in the disposable adoption: create, work, merge, verified remove", "id": "TR-0002", "issue_url": "https://github.com/Pukujan/pcm-dogfood-0024-lifecycle/issues/1", "next_action": "None: merged; worktree removal proof completes after continuity worktree remove TR-0002.", "owner": "owner lifecycle trial", "priority": "P3", "protocol_version": "0.1.0-draft", "schema": "project-continuity.task.v1", "status": "completed", "why": "Item 41 requires task-owned worktrees be cleaned up after merge"} -->
 
 - Status: active
 - Owner: owner lifecycle trial
