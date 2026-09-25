@@ -1,6 +1,6 @@
 # TASK-TR-0001 — Coldstart
 
-<!-- continuity:task {"acceptance":["replace this with observable, task-specific acceptance checks"],"depends_on":[],"goal":"Prove fresh-session continuation end-to-end: recover state from PROJECT/CURRENT/TASK, checkpoint a bounded change, and merge through protected CI","id":"TR-0001","issue_url":"https://github.com/Pukujan/pcm-dogfood-0024-lifecycle/issues/1","next_action":"define scope and observable acceptance checks, then begin bounded work","owner":"owner lifecycle trial","priority":"P2","protocol_version":"0.1.0-draft","schema":"project-continuity.task.v1","status":"active","why":"Adopters must trust cold-start handoff and the GitHub-owned lifecycle"} -->
+<!-- continuity:task {"acceptance": ["replace this with observable, task-specific acceptance checks"], "depends_on": [], "goal": "Prove fresh-session continuation end-to-end: recover state from PROJECT/CURRENT/TASK, checkpoint a bounded change, and merge through protected CI", "id": "TR-0001", "issue_url": "https://github.com/Pukujan/pcm-dogfood-0024-lifecycle/issues/1", "next_action": "None: TR-0001 merged via PR #2 at 39af869.", "owner": "owner lifecycle trial", "priority": "P2", "protocol_version": "0.1.0-draft", "schema": "project-continuity.task.v1", "status": "completed", "why": "Adopters must trust cold-start handoff and the GitHub-owned lifecycle"} -->
 
 - Status: active
 - Owner: owner lifecycle trial
